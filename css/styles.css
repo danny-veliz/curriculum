@@ -92,24 +92,35 @@
 }
 .cuadrado{
     position: absolute;
-    width: 27%;
-    height: 200px;
+    width: 29%;
+    align-content: center;
     top: 20px;
     /*background-color: #0078d4;*/
     left: 10%;
     text-align: center;
+    -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.61);
+-moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.61);
+box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.61);
+
+border-radius: 14px 14px 14px 14px;
+-moz-border-radius: 14px 14px 14px 14px;
+-webkit-border-radius: 14px 14px 14px 14px;
+border: 1px solid #000000;
 }
 
 .cuadrado p{
     color: #6c757d !important;
 }
 .seccionIn{
-    background-color: rgb(39, 71, 82)  !important;
     display: flex;
-    margin-top: 100px;
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    height: 375px;
     /*justify-content: center;*/
     
 }
+
 .miDiv {
     padding-left: 10px;  /* Espacio a la izquierda */
     padding-right: 10px; /* Espacio a la derecha */
@@ -131,12 +142,90 @@
     height: 400px;
     z-index: 1;
     top: -75px;
+    
 }
+/*subir 
+.foto-perfil:hover{
+  top: -85px
+}*/
+
+.imagenApps{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  
+  
+}
+.imgpython{
+  right: 40%;
+  top: 25px;
+}
+
+.imgpowerApps{
+  right: 44%;
+  top: 120px;
+}
+
+.imgpowerApps:hover{
+  top: 110px;
+}
+
+.imgpowerAutomate{
+  right: 23.5%;
+  top: 170px;
+}
+
+.imgPowerBI{
+  width: 70px;
+  height: 50px;
+  right: 22%;
+  top: 25px;
+  z-index: 1;
+  position: absolute;
+}
+.imgAngular{
+  right: 42%;
+  top: 250px;
+}
+
+.imgpython:hover{
+  top: 15px;
+}
+.imgpowerAutomate:hover{
+  right: 23.5%;
+  top: 165px;
+}
+
+.imgPowerBI:hover{
+  
+  top: 15px;
+}
+.imgAngular:hover{
+  right: 42%;
+  top: 240px;
+}
+
+/*
 section{
     position: relative;
    
-}
+}*/
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+.section2{
+  background-color: rgba(84, 218, 255, 0.15);
+  width: 100%;
+  position: relative; /* Cambia a relative o elimina esta propiedad */
+  padding: 10px; /* Añade padding si necesitas espacio interior */
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -3797,7 +3886,9 @@ textarea.form-control-lg {
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -7985,6 +8076,7 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+
 }
 
 .pt-0 {
