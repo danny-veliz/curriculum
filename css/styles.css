@@ -220,6 +220,7 @@ nav {
   z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
 }
 .section2{
+  flex-wrap: wrap;
   background-color: rgba(84, 218, 255, 0.15);
   width: 100%;
   position: relative; /* Cambia a relative o elimina esta propiedad */
