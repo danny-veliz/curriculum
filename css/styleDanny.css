@@ -223,14 +223,12 @@ footer h3{
     width: 100%;
     margin-top: 30px;
     margin-bottom: 50px;
-    padding: 0px 2%;
+    padding: 0px 13%;
     background-color: rgba(255, 255, 255, 0.082);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    grid-column: 1;
-    grid-row: 1;
 }
 
 .skills_head {
